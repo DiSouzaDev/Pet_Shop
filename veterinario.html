@@ -17,36 +17,69 @@
 				<li><a href="veterinario.html">Veterinário</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header> <br><br><br><br>
 	<section>
-		<form class="form">
-			<div>
-				<label for="inst">Nome do instrutor:</label> <br>
-				<input type="text" id="inst"> <br>
-			</div>
-			<div>
-				<label for="pet">Nome do pet:</label> <br>
-				<input type="text" id="pet"> <br>
-			</div>
-			<div>
-				<p>Tipo do Animal:</p>
-				<input type="radio" id="gato" name="fav_language" value="Gato">
-				<label for="gato">Gato</label><br>
-				<input type="radio" id="cach" name="fav_language" value="Cachorro">
-				<label for="css">Cachorro</label><br>
-			</div>
-
-			<div>
-				<label for="idade">Idade do Animal:</label> <br>
-				<input type="text" id="idade">
-				<select id="AnosMeses">
-					<option>Selecionar</option>
-					<option>Mês(es)</option>
-					<option>Ano(s)</option>
-				</select>
-
-			</div>
-		</form>
+		<div class="container">
+			<h3>Dados cadastrais:</h3> <br>
+			<form class="form">
+				<div>
+					<label for="inst">Nome do instrutor:</label> <br>
+					<input type="text" id="inst"> <br>
+				</div>
+				<br>
+				<div>
+					<label for="pet">Nome do pet:</label> <br>
+					<input type="text" id="pet"> <br>
+				</div>
+				<br>
+				<div>
+					<p>Tipo do Animal:</p>
+					<input type="radio" id="gato" name="fav_language" value="Gato">
+					<label for="gato">Gato</label><br>
+					<input type="radio" id="cach" name="fav_language" value="Cachorro">
+					<label for="cach">Cachorro</label><br>
+				</div>
+				<br>
+				<div>
+					<label for="idade">Idade do Animal:</label> <br>
+					<input type="text" id="idade">
+					<select id="AnosMeses">
+						<option>Selecionar</option>
+						<option>Mês(es)</option>
+						<option>Ano(s)</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<label for="email">Insira seu E-mail:</label> <br>
+					<input type="email" id="email">
+				</div>
+				<br>
+				<div>
+					<label for="idade">Em qual unidade você prefere ser atendido?</label>
+					<select id="unidade">
+						<option>Selecionar</option>
+						<option>Unidade Lapa</option>
+						<option>Unidade Luz</option>
+						<option>Unidade Barra Funda</option>
+						<option>Unidade Casa Verde</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<label for="data">Selecione uma data para o atendimento:</label>
+					<input type="date" id="data">
+				</div>
+				<br>
+				<div>
+					<label>Contate-nos o que notou de estranho no seu Pet:</label> <br>
+					<textarea row="6" style="min-width: 500px; min-height: 150px; max-width: 500px; max-height: 150px;"></textarea>
+				</div>
+				<div>
+					<input type="submit" id="enviar" style="width: 50px;">
+				</div>
+			</form>
+		</div>
 	</section>
 </body>
 <!--Rodapé da página-->
@@ -55,6 +88,7 @@
 		<p>Contate-nos:</p>
 		<p class="p1">Telefone: +55 (11) 3456-2787</p>
 		<p class="p1">Whatsapp: +55 (11) 98568-1578</p>
+		<p class="p1">SAC: +55 (11) 9982-6927</p>
 		<p class="p1">E-mail: dogs&Cats@gemailx.com.br</p>
 	</div>
 	<nav>

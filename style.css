@@ -18,6 +18,10 @@
     border-radius: 20px;
 }
 
+body{
+    background: rgb(176, 231, 245);
+}
+
 body, ul, li {
     margin: 0px;
     padding: 0px;
@@ -28,18 +32,6 @@ body, ul, li {
 a{
     text-decoration: none;
     color: black;
-}
-
-h2{
-    padding: 10px;
-}
-
-h3{
-    padding: 10px;
-}
-
-p{
-    padding: 2%;
 }
 
 .p1{
@@ -97,7 +89,7 @@ p{
 }
 
 .flex > div{
-    flex: 1 1 200px;
+    flex: 1 1 500px;
 }
 
 .footer{
@@ -119,6 +111,7 @@ p{
     padding: 1px;
     margin: 10px;
     border: 1px #343553 solid;
+    background: white;
 }
 
 table tr td{
@@ -127,4 +120,13 @@ table tr td{
 
 .dados{
     width: 30%;
+}
+
+.container{
+    padding: 2%;
+    justify-content: center;
+}
+
+.form{
+    user-select: none;
 }
