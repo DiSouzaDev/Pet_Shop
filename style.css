@@ -71,7 +71,7 @@ a{
     display: flex;
 }
 
-.menu li{
+li{
     margin-left: 10px;
     display: block;
     padding: 5px;
@@ -112,6 +112,7 @@ a{
     margin: 10px;
     border: 1px #343553 solid;
     background: white;
+    user-select: none;
 }
 
 table tr td{
